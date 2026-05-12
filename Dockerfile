@@ -8,6 +8,6 @@ RUN chmod +x mvnw
 
 RUN ./mvnw clean package
 
-EXPOSE 8085
+EXPOSE 8080
 
 CMD ["java", "-jar", "target/chat-0.0.1-SNAPSHOT.jar"]
