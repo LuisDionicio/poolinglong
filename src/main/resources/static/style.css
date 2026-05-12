@@ -1,0 +1,30 @@
+body {
+
+    background: #f5f5f5;
+}
+
+#chat {
+
+    height: 400px;
+
+    overflow-y: auto;
+
+    border: 1px solid #ccc;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    background: white;
+}
+
+.mensaje {
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+    background: #e9ecef;
+}
